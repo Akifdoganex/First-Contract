@@ -409,8 +409,8 @@ contract LGBT is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "LGBTProtocol";
-    string private _symbol = "LGBT";
+    string private _name = "First";
+    string private _symbol = "First";
     uint8 private _decimals = 9;
 
 
