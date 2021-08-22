@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at BscScan.com on 2021-08-16
+*/
+
 // SPDX-License-Identifier: Unlicensed
 
 pragma solidity ^0.8.4;
@@ -405,8 +409,8 @@ contract LGBT is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "First";
-    string private _symbol = "First";
+    string private _name = "LGBTProtocol";
+    string private _symbol = "LGBT";
     uint8 private _decimals = 9;
 
 
@@ -867,7 +871,7 @@ contract LGBT is Context, IERC20, Ownable {
         _taxFee = 0;
         _liquidityFee = 0;
         _burnFee = 0;
-        _maxTxAmount = 1000000000 * 10**6 * 10**9;
+        _maxTxAmount = 5000000 * 10**6 * 10**9;
     }
     
     function afterPreSale() external onlyOwner {
